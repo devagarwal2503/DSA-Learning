@@ -1,174 +1,407 @@
-# ⚡ Dev Agarwal's DSA Command Center
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=600&height=50&lines=🎯+Dev's+DSA+Quest+2026;💡+Mastering+DSA+via+Patterns;🚀+Language%3A+C%2B%2B" alt="Typing SVG" />
+
+<h1>🧠 Dev Agarwal's DSA Journal</h1>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&height=40&lines=🎯+Pattern-First.+Not+Random+Grind.;⚡+Intuition+over+Memorization;🚀+From+Zero+to+Interview-Ready;🧩+28+Patterns.+Infinite+Problems+Solved." alt="Typing SVG" />
+
+<br/>
+
+<a href="https://www.youtube.com/@padho_with_pratyush">
+  <img src="https://img.shields.io/badge/Mentor-Padho%20with%20Pratyush-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Mentor"/>
+</a>
+<a href="https://www.youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2">
+  <img src="https://img.shields.io/badge/Playlist-DSA%20Patterns%202025-FF6B6B?style=for-the-badge&logo=youtube&logoColor=white" alt="Playlist"/>
+</a>
+<a href="https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvVrY8/edit?usp=sharing">
+  <img src="https://img.shields.io/badge/Pattern%20Sheet-Track%20Progress-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Pattern Sheet"/>
+</a>
+<a href="https://github.com/devagarwal2503">
+  <img src="https://img.shields.io/badge/Dev%20Agarwal-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Language-C%2B%2B20-0EA5E9?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Quest%20Start-July%2022%2C%202026-22D3EE?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Problems%20Solved-0%20%2F%20~114-F87171?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Patterns%20Unlocked-0%20%2F%2028-34D399?style=for-the-badge"/>
+
 </div>
 
-<p align="center">
-  <a href="https://github.com/devagarwal2503">
-    <img src="https://img.shields.io/badge/Dev--Agarwal-Profile-007ACC?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
-  </a>
-  <img src="https://img.shields.io/badge/Language-C%2B%2B20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++20" />
-  <img src="https://img.shields.io/badge/Rank-Apprentice-orange?style=for-the-badge" alt="Rank" />
-</p>
+---
+
+## 🧭 The Mission: Pattern-First DSA
+
+> *"An algorithm must be seen to be believed — and a person who cannot visualize a pattern cannot truly understand it."*
+> — **Donald Knuth**, Author of *The Art of Computer Programming*
+
+Traditional DSA prep is broken. You grind 500 LeetCode problems, yet freeze in interviews because you memorized *solutions* — not *thinking strategies*.
+
+I'm taking a different path. Instead of grinding topic-by-topic (Arrays → Strings → Trees…), I'm training my brain to recognize **28 core algorithmic patterns** that solve ~95% of all interview problems. When I see a new problem, I identify the pattern, apply the template, and adapt.
+
+This repo is the living record of that journey — **my notes, my code, my "Aha!" moments.** I'm following the [DSA Patterns 2025](https://www.youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2) course as my structured curriculum.
 
 ---
 
-## 📖 The Quest & The Mentor
+## 📡 Learning Stack
 
-This repository is my personal sandbox for mastering Data Structures & Algorithms (DSA). 
-
-While I am following the structured learning roadmap from **[Padho with Pratyush's DSA Patterns Playlist](https://www.youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2)**, this space represents **my personal implementation, optimization style, and growth**.
-
-Here, I focus on **intuition over memorization**. Instead of solving 1000+ scattered problems, I am training my brain to recognize the pattern underlying each challenge.
-
----
-
-## 🛡️ Dev's Rules of the Arena
-
-To get the most out of this journey and prevent passive learning, I hold myself to these rules:
-
-1. **The 30-Minute Struggle:** No checking the editorial or video solutions before actively trying for at least 30 minutes.
-2. **Dry Run First:** Before typing a single line of code, dry-run the logic on paper with at least two custom edge cases.
-3. **Double Pass Optimization:** First make it run (Brute Force), then make it fast/efficient (Optimal).
-4. **Document the "Aha!" Moment:** Every solved problem must contain a comment detailing *why* the optimal approach works.
+| | Details |
+|---|---|
+| **Course** | [DSA Patterns 2025](https://www.youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2) — Padho with Pratyush |
+| **Problem Sheet** | [Official Pattern Sheet](https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvVrY8/edit?usp=sharing) |
+| **Core Philosophy** | Pattern recognition > Rote memorization |
+| **Target** | FAANG & Product-Based Company Interviews |
+| **My Language** | C++20 |
 
 ---
 
-## 🏆 Quest Progression Tracker
+## ⚔️ Dev's Code of Conduct
 
-I have categorized the patterns into four logical phases. My goal is to conquer each phase step-by-step.
+Before a single line of code, I commit to these rules:
+
+| # | Rule | Why |
+|---|---|---|
+| 1 | **The 30-Minute Struggle Rule** | No editorial or video solution before genuinely trying for ≥30 min |
+| 2 | **Dry Run on Paper First** | Trace logic with ≥2 custom edge cases before coding |
+| 3 | **Brute → Optimal** | First make it work, then make it fast |
+| 4 | **The "Aha!" Comment** | Every solution has a comment explaining the core insight |
+| 5 | **Pattern Tag Every Solution** | Label which pattern applies (e.g., `// PATTERN: Sliding Window`) |
+
+---
+
+## 🗺️ The Learning Roadmap
+
+```mermaid
+graph LR
+    subgraph P1["🏗️ Phase 1: Linear Foundations"]
+        direction TB
+        A1[Two Pointers] --> A2[Sliding Window]
+        A2 --> A3[Prefix Sum]
+        A3 --> A4[Merge Intervals]
+        A4 --> A5[Cyclic Sort]
+    end
+
+    subgraph P2["⚙️ Phase 2: Classic Data Structures"]
+        direction TB
+        B1[Binary Search] --> B2[Linked Lists]
+        B2 --> B3[Monotonic Stack]
+        B3 --> B4[Heaps]
+    end
+
+    subgraph P3["🌳 Phase 3: Non-Linear & Networks"]
+        direction TB
+        C1[Trees & BST] --> C2[Graphs]
+        C2 --> C3[Trie]
+        C3 --> C4[Union-Find]
+    end
+
+    subgraph P4["🧩 Phase 4: Algorithmic Mastery"]
+        direction TB
+        D1[Backtracking] --> D2[Greedy]
+        D2 --> D3[Dynamic Programming]
+        D3 --> D4[Bit Manipulation]
+    end
+
+    P1 --> P2
+    P2 --> P3
+    P3 --> P4
+
+    style P1 fill:#1e1b4b,stroke:#A855F7,color:#fff
+    style P2 fill:#1e1b4b,stroke:#3B82F6,color:#fff
+    style P3 fill:#1e1b4b,stroke:#10B981,color:#fff
+    style P4 fill:#1e1b4b,stroke:#F59E0B,color:#fff
+```
+
+---
+
+## 📊 Master Progress Tracker
+
+> **Legend:** 🔒 Locked &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; 🧪 Practicing &nbsp;|&nbsp; ✅ Completed
+
+### ⚡ Phase 1 — Linear Foundations
+
+| # | Pattern | Core Concepts | Problems | Status | Difficulty |
+|:---:|---|---|:---:|:---:|:---:|
+| 01 | **Two Pointers** | Opposite ends, same dir, Dutch National Flag | 0/12 | 🔒 Locked | 🟢 Easy |
+| 02 | **Sliding Window** | Fixed window, variable window, character maps | 0/15 | 🔒 Locked | 🟢 Easy |
+| 03 | **Prefix Sum** | Range queries, 2D prefix, difference arrays | 0/10 | 🔒 Locked | 🟢 Easy |
+| 04 | **Merge Intervals** | Interval sorting, overlapping, insertion | 0/8 | 🔒 Locked | 🟡 Medium |
+| 05 | **Cyclic Sort** | Index-based placement, missing/duplicate numbers | 0/6 | 🔒 Locked | 🟡 Medium |
+
+### ⚙️ Phase 2 — Classic Data Structures
+
+| # | Pattern | Core Concepts | Problems | Status | Difficulty |
+|:---:|---|---|:---:|:---:|:---:|
+| 06 | **Binary Search** | Rotated arrays, search space reduction, 2D binary search | 0/14 | 🔒 Locked | 🟡 Medium |
+| 07 | **Fast & Slow Pointers** | Cycle detection, middle of list, tortoise-hare | 0/8 | 🔒 Locked | 🟡 Medium |
+| 08 | **Linked List Manipulation** | In-place reversal, K-group reversal, rotation | 0/10 | 🔒 Locked | 🟡 Medium |
+| 09 | **Monotonic Stack** | Next greater/smaller element, histogram | 0/8 | 🔒 Locked | 🔴 Hard |
+| 10 | **Heaps & Priority Queues** | Top-K elements, K-way merge, scheduling | 0/10 | 🔒 Locked | 🔴 Hard |
+
+### 🌳 Phase 3 — Non-Linear Structures
+
+| # | Pattern | Core Concepts | Problems | Status | Difficulty |
+|:---:|---|---|:---:|:---:|:---:|
+| 11 | **Trees & BST** | DFS/BFS, LCA, diameter, serialization | 0/14 | 🔒 Locked | 🟡 Medium |
+| 12 | **Tree BFS / Level Order** | Level traversal, zigzag, right side view | 0/8 | 🔒 Locked | 🟡 Medium |
+| 13 | **Graphs — BFS/DFS** | Connected components, flood fill, word ladder | 0/12 | 🔒 Locked | 🔴 Hard |
+| 14 | **Topological Sort** | Course schedule, alien dictionary, DAG ordering | 0/6 | 🔒 Locked | 🔴 Hard |
+| 15 | **Union-Find / DSU** | Cycle detection, redundant connection | 0/8 | 🔒 Locked | 🔴 Hard |
+| 16 | **Shortest Path** | Dijkstra, Bellman-Ford, Floyd-Warshall | 0/8 | 🔒 Locked | 🔴 Hard |
+| 17 | **Trie** | Prefix matching, autocomplete, word search | 0/6 | 🔒 Locked | 🔴 Hard |
+
+### 🧩 Phase 4 — Algorithmic Mastery
+
+| # | Pattern | Core Concepts | Problems | Status | Difficulty |
+|:---:|---|---|:---:|:---:|:---:|
+| 18 | **Recursion & Backtracking** | Subsets, permutations, N-queens, Sudoku | 0/12 | 🔒 Locked | 🔴 Hard |
+| 19 | **Greedy Algorithms** | Interval scheduling, activity selection | 0/10 | 🔒 Locked | 🔴 Hard |
+| 20 | **DP — 1D** | Fibonacci variants, house robber, coin change | 0/12 | 🔒 Locked | 🔴 Hard |
+| 21 | **DP — 2D / Grid** | LCS, edit distance, unique paths | 0/12 | 🔒 Locked | 🔴 Hard |
+| 22 | **DP — Knapsack** | 0/1 Knapsack, unbounded, subset sum | 0/10 | 🔒 Locked | 🔴 Hard |
+| 23 | **DP — Intervals** | Burst balloons, matrix chain multiplication | 0/6 | 🔒 Locked | 🔴 Hard |
+| 24 | **Divide & Conquer** | Merge sort variants, K-th element | 0/6 | 🔒 Locked | 🔴 Hard |
+| 25 | **Bit Manipulation** | Bitmasks, XOR tricks, power of two | 0/8 | 🔒 Locked | 🟡 Medium |
+| 26 | **Math & Number Theory** | GCD, prime sieve, modular arithmetic | 0/6 | 🔒 Locked | 🟡 Medium |
+| 27 | **String Matching** | KMP, Rabin-Karp, Z-algorithm | 0/6 | 🔒 Locked | 🔴 Hard |
+| 28 | **Segment Trees & BIT** | Range queries, point updates, lazy propagation | 0/6 | 🔒 Locked | 🔴 Hard |
+
+---
+
+## 📈 Skills Radar
+
+> This chart evolves as I complete more patterns. Currently at Day 1 — all doors locked, all potential unleashed.
+
+```mermaid
+%%{init: {'theme': 'dark'}}%%
+pie title Patterns Completed by Phase (Starting Point: 0/28)
+    "Phase 1 - Linear Foundations (5 patterns)" : 5
+    "Phase 2 - Classic Data Structures (5 patterns)" : 5
+    "Phase 3 - Non-Linear & Networks (7 patterns)" : 7
+    "Phase 4 - Algorithmic Mastery (11 patterns)" : 11
+```
+
+---
+
+## 🔥 Pattern Unlock Timeline (Target Schedule)
+
+```mermaid
+gantt
+    title DSA Journey 2026 - Target Roadmap
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+
+    section Phase 1 · Linear
+    Two Pointers              :active, p01, 2026-07-22, 7d
+    Sliding Window            :p02, after p01, 7d
+    Prefix Sum                :p03, after p02, 5d
+    Merge Intervals           :p04, after p03, 5d
+    Cyclic Sort               :p05, after p04, 4d
+
+    section Phase 2 · DS
+    Binary Search             :p06, after p05, 7d
+    Fast and Slow Pointers    :p07, after p06, 5d
+    Linked List               :p08, after p07, 7d
+    Monotonic Stack           :p09, after p08, 6d
+    Heaps                     :p10, after p09, 7d
+
+    section Phase 3 · Non-Linear
+    Trees and BST             :p11, after p10, 10d
+    BFS Level Order           :p12, after p11, 6d
+    Graph BFS DFS             :p13, after p12, 10d
+    Topological Sort          :p14, after p13, 6d
+    Union-Find                :p15, after p14, 6d
+    Shortest Path             :p16, after p15, 7d
+    Trie                      :p17, after p16, 6d
+
+    section Phase 4 · Algorithms
+    Backtracking              :p18, after p17, 10d
+    Greedy                    :p19, after p18, 7d
+    DP 1D                     :p20, after p19, 10d
+    DP 2D Grid                :p21, after p20, 10d
+    DP Knapsack               :p22, after p21, 8d
+    Bit Manipulation          :p25, after p22, 5d
+```
+
+---
+
+## 📌 The Pattern-Identification Mental Model
+
+When I see a new problem, I run through this decision tree:
 
 ```mermaid
 graph TD
-    A[Phase 1: Foundations] --> B[Phase 2: Linear Structures]
-    B --> C[Phase 3: Trees & Graphs]
-    C --> D[Phase 4: Algorithmic Mastery]
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
-    style D fill:#fbb,stroke:#333,stroke-width:2px
+    A["👀 New Problem"] --> B{{"What's the KEY signal?"}}
+
+    B -->|"Array, need pairs/triplets"| C["💡 Two Pointers"]
+    B -->|"Subarray or substring"| D["💡 Sliding Window"]
+    B -->|"Sorted array, find position"| E["💡 Binary Search"]
+    B -->|"Linked list cycle or midpoint"| F["💡 Fast & Slow Pointers"]
+    B -->|"Interval overlaps or merging"| G["💡 Merge Intervals"]
+    B -->|"Tree path / depth / subtree"| H["💡 Tree DFS/BFS"]
+    B -->|"Graph connectivity"| I["💡 Union-Find / BFS"]
+    B -->|"K-th largest, top-K"| J["💡 Heap"]
+    B -->|"All possibilities / pruning"| K["💡 Backtracking"]
+    B -->|"Optimal substructure overlap"| L["💡 Dynamic Programming"]
+    B -->|"Local greedy = global optimal"| M["💡 Greedy"]
+
+    C & D & E & F & G & H & I & J & K & L & M --> N["✅ Apply Pattern Template"]
+    N --> O["🔧 Adapt & Code Solution"]
+    O --> P["🧪 Test with Edge Cases"]
+    P --> Q["⚡ Optimize Complexity"]
+
+    style A fill:#1e1b4b,stroke:#A855F7,color:#fff
+    style B fill:#1e1b4b,stroke:#F59E0B,color:#fff
+    style N fill:#1e1b4b,stroke:#10B981,color:#fff
+    style Q fill:#1e1b4b,stroke:#EF4444,color:#fff
 ```
-
-### ⚔️ Phase 1: Linear Foundations
-| Module | Pattern | Status | Key Milestones | Notes |
-|:---:|---|:---:|:---:|---|
-| **00** | Complexity Analysis | 🔄 *Analyzing* | Big O, Space Tricks | Learning to count operations |
-| **01** | Two Pointers | 🟥 *Locked* | Opposite & Same Direction | Left/Right index manipulation |
-| **02** | Sliding Window | 🟥 *Locked* | Fixed & Variable Windows | Subarrays & unique characters |
-| **03** | Prefix Sum | 🟥 *Locked* | Range Sum Queries | Precomputing static arrays |
-| **04** | Merge Intervals | 🟥 *Locked* | Interval Overlaps | Sorting & interval insertions |
-
-### ⚔️ Phase 2: Classic Data Structures
-| Module | Pattern | Status | Key Milestones | Notes |
-|:---:|---|:---:|:---:|---|
-| **05** | Binary Search | 🟥 *Locked* | Rotated search, Search Space | $O(\log N)$ optimization everywhere |
-| **06** | Linked Lists | 🟥 *Locked* | In-place Reversal, Tortoise-Hare | Pointer rewiring & cycle checks |
-| **07** | Monotonic Stack/Queue | 🟥 *Locked* | Next Greater Element | Tracking order invariants |
-| **08** | Heaps & Priority Queues | 🟥 *Locked* | K-way Merge, Top K elements | Dynamic min/max maintenance |
-
-### ⚔️ Phase 3: Non-Linear Structures & Networks
-| Module | Pattern | Status | Key Milestones | Notes |
-|:---:|---|:---:|:---:|---|
-| **09** | Trees & BST | 🟥 *Locked* | DFS/BFS traversals, LCA | Recursive tree properties |
-| **10** | Graphs | 🟥 *Locked* | Dijkstra, Topo Sort, DSU, MST | Network connectivity & shortest paths |
-| **11** | Trie | 🟥 *Locked* | Auto-complete, Prefix matching | Space-efficient string indices |
-
-### ⚔️ Phase 4: Algorithmic Mastery
-| Module | Pattern | Status | Key Milestones | Notes |
-|:---:|---|:---:|:---:|---|
-| **12** | Recursion & Backtracking | 🟥 *Locked* | Subsets, Permutations, Sudoku | Pruning search spaces |
-| **13** | Greedy Algorithms | 🟥 *Locked* | Interval Scheduling, Knapsack | Local optimal to global optimal |
-| **14** | Dynamic Programming (DP) | 🟥 *Locked* | Memoization & Tabulation | Overlapping subproblems, States |
-| **15** | Bit Manipulation | 🟥 *Locked* | Bitmasks, Single Numbers | Low-level math speedups |
 
 ---
 
-## 🛠️ Dev's C++ Weapon of Choice (Template)
+## 📁 Repository Structure
 
-For my local testing, I don't use standard boilerplate. I use a custom template that includes **Fast I/O**, standard containers, and a **local-only debugger macro** that prints variables without polluting LeetCode's compiler output.
+```text
+DSA-Learning/
+│
+├── 📄 README.md                          ← Mission Control (this file)
+│
+├── 📂 01_Two_Pointers/
+│   ├── 📝 notes.md                       ← Concept, when-to-use, C++ template
+│   ├── 📝 problems.md                    ← Problem list with LeetCode links + status
+│   └── 📂 solutions/
+│       └── 🔧 valid_palindrome.cpp       ← Annotated solution
+│
+├── 📂 02_Sliding_Window/
+│   ├── 📝 notes.md
+│   ├── 📝 problems.md
+│   └── 📂 solutions/
+│
+└── 📂 [NN_Pattern_Name]/
+    ├── 📝 notes.md
+    ├── 📝 problems.md
+    └── 📂 solutions/
+        └── 🔧 [problem_name].cpp
+```
+
+---
+
+## 🛠️ C++ Solution Template
+
+Every problem I solve follows this exact structured template:
 
 ```cpp
+/*
+ * ═══════════════════════════════════════════════════════════
+ *  Problem : [Problem Name]
+ *  Link    : [LeetCode / GFG URL]
+ *  Pattern : [Two Pointers | Sliding Window | DP | ...]
+ *  Date    : [YYYY-MM-DD]
+ * ═══════════════════════════════════════════════════════════
+ *
+ *  💡 AHA! MOMENT:
+ *  [The core insight that makes the optimal approach work]
+ *
+ *  APPROACH:
+ *  1. [Step 1]
+ *  2. [Step 2]
+ *
+ *  ⏱️  Time  : O(?)
+ *  💾  Space : O(?)
+ * ═══════════════════════════════════════════════════════════
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// Short-hands for standard containers
-using ll = long long;
-using vi = vector<int>;
+// ─── Type Aliases ─────────────────────────────────────────
+using ll  = long long;
+using vi  = vector<int>;
+using vll = vector<long long>;
 using pii = pair<int, int>;
+using vvi = vector<vector<int>>;
 
-// Local debugging engine
+// ─── Local Debug Macro (stripped in Online Judge) ─────────
 #ifndef ONLINE_JUDGE
-#define debug(x) cerr << #x <<" = "; _print(x); cerr << endl;
+  #define dbg(x) cerr << "[DBG] " << #x << " = " << (x) << "\n"
 #else
-#define debug(x)
+  #define dbg(x)
 #endif
 
-// Debug print overloads
-void _print(int t) { cerr << t; }
-void _print(string t) { cerr << t; }
-void _print(char t) { cerr << t; }
-void _print(double t) { cerr << t; }
-template <class T> void _print(vector<T> v) { cerr << "[ "; for (T i : v) { _print(i); cerr << " "; } cerr << "]"; }
-
-// Fast I/O Configuration
-void fast_io() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-}
-
+// ─── Solution ─────────────────────────────────────────────
 class Solution {
 public:
-    int solvePatternProblem(vi& nums) {
-        // Intuition and pattern implementation here
-        return 0;
-    }
+    // Brute Force: O(?) Time | O(?) Space
+    // ...
+
+    // Optimal: O(?) Time | O(?) Space
+    // PATTERN: [Pattern Name]
 };
 
+// ─── Driver ───────────────────────────────────────────────
 int main() {
-    fast_io();
-    
-    #ifndef ONLINE_JUDGE
-    // Redirecting input and output locally if needed
-    // freopen("input.txt", "r", stdin);
-    // freopen("error.txt", "w", stderr);
-    #endif
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    Solution solver;
-    vi nums = {1, 2, 3, 4, 5};
-    
-    debug(nums); // Prints only in local debug build!
-    
+    Solution sol;
+    // test cases here
+
     return 0;
 }
 ```
 
 ---
 
-## 📂 Project Organization
+## 🏆 Achievement Wall
 
-This is how I keep my codebase neat and clean:
+<div align="center">
 
-```text
-DSA-Learning/
-├── README.md                      # Command center
-├── 00_Complexity_Analysis/        # Theoretical and space tricks
-├── 01_Two_Pointers/               # Fast-slow, opposite end problems
-│   ├── remove_duplicates.cpp      # Annotated clean C++ code
-│   └── Notes.md                   # My personal takeaways and intuition
-└── ...
-```
+| Badge | Milestone | Status | Date |
+|:---:|---|:---:|:---:|
+| 🌱 **Seed Planted** | Repository created & quest begun | ✅ Done | Jul 22, 2026 |
+| 🔓 **First Unlock** | Complete Pattern #01: Two Pointers | 🔒 | — |
+| 🔟 **Decade** | 10 problems solved | 🔒 | — |
+| 🚀 **Phase 1 Clear** | All 5 linear patterns completed | 🔒 | — |
+| 🏗️ **Phase 2 Clear** | All 5 data structure patterns completed | 🔒 | — |
+| 🌐 **Non-Linear Explorer** | Begin Phase 3: Trees & Graphs | 🔒 | — |
+| 🎯 **Phase 3 Clear** | All 7 non-linear patterns completed | 🔒 | — |
+| 💯 **Century** | 100 problems solved | 🔒 | — |
+| 🧩 **DP Disciple** | Complete all 4 DP sub-patterns | 🔒 | — |
+| 🧠 **Pattern Master** | All 28 patterns completed | 🔒 | — |
+| ⚡ **Final Boss** | Full mock interview (45 min, clean solve) | 🔒 | — |
 
----
-
-## 📈 Milestones & Achievements
-
-*   📅 **Quest Started:** July 22, 2026
-*   🚀 **Level 1 Reached:** (Lock Complexity Analysis basics)
-*   🔥 **Streak Goal:** Solve at least 1 problem daily.
+</div>
 
 ---
 
-*“The only way to learn a new programming language or tool is by writing programs in it.” – Dennis Ritchie* 
+## 📚 Key Resources
 
-Let's do this! 💪
+| Resource | Link | Purpose |
+|---|---|---|
+| 🎥 **Playlist** | [DSA Patterns 2025](https://www.youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2) | Primary learning source |
+| 📊 **Pattern Sheet** | [Google Sheets Tracker](https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvVrY8/edit?usp=sharing) | Official problem list |
+| 📺 **Channel** | [@padho_with_pratyush](https://www.youtube.com/@padho_with_pratyush) | Pratyush's full channel |
+| 🧑‍💻 **My LeetCode** | [devagarwal2503](https://leetcode.com/devagarwal2503/) | Submission history |
+| 📖 **C++ Reference** | [cppreference.com](https://cppreference.com) | STL documentation |
+
+---
+
+## 💬 Daily Problem Log
+
+> *A breadcrumb trail of the journey. Updated after every session.*
+
+| Date | Pattern | Problem | Approach | Time | Space | Outcome |
+|---|---|---|---|:---:|:---:|:---:|
+| Jul 22, 2026 | — | Repo setup & planning | — | — | — | ✅ |
+
+---
+
+<div align="center">
+
+---
+
+*"People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones."*
+— **Donald Knuth**
+
+**🧠 Built by Dev Agarwal · Quest Started July 2026**
+
+</div>
