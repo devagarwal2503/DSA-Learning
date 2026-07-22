@@ -2,7 +2,7 @@
 
 <h1>🧠 Dev Agarwal's DSA Journal</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&height=40&lines=🎯+Pattern-First.+Not+Random+Grind.;⚡+Intuition+over+Memorization;🚀+From+Zero+to+Interview-Ready;🧩+28+Patterns.+Infinite+Problems+Solved." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&height=40&lines=%F0%9F%8E%AF+Pattern-First.+Not+Random+Grind.;%E2%9A%A1+Intuition+over+Memorization;%F0%9F%9A%80+From+Zero+to+Interview-Ready;%F0%9F%A7%A9+28+Patterns.+Infinite+Problems+Solved." alt="Typing SVG" />
 
 <br/>
 
