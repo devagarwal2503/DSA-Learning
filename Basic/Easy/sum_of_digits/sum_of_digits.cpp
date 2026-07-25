@@ -7,14 +7,15 @@
  * ═══════════════════════════════════════════════════════════
  *
  *  💡 AHA! MOMENT:
- *  [The core insight that makes the optimal approach work]
+ *  Extracting digits from right to left using arithmetic modulo (%) and division (/) operations base 10 in a loop.
  *
  *  APPROACH:
- *  1. [Step 1]
- *  2. [Step 2]
+ *  1. Initialize sum to 0.
+ *  2. In a loop while n > 0, extract the last digit using (n % 10) and add it to sum.
+ *  3. Truncate the last digit of n using integer division (n / 10).
  *
- *  ⏱️  Time  : O(?)
- *  💾  Space : O(?)
+ *  ⏱️  Time  : O(log10(N))
+ *  💾  Space : O(1)
  * ═══════════════════════════════════════════════════════════
  */
 
@@ -22,8 +23,19 @@
 using namespace std;
 
 class Solution {
-public:
-    
+	public:
+	int sumOfDigits(int n) {
+		// code here
+		int sum = 0;
+		
+		while (n > 0) {
+			int tempNum = n % 10;
+			sum = sum + tempNum;
+			n = n / 10;
+		}
+		
+		return sum;
+	}
 };
 
 int main() {

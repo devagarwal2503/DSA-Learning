@@ -7,9 +7,9 @@ This folder contains foundational math and logic building problems from Geeksfor
 ## 📊 Progress Summary
 
 - **Total Problems:** 46
-- **Completed:** 5 / 46
+- **Completed:** 6 / 46
 - **Basic:** 5 / 5
-- **Easy:** 0 / 17
+- **Easy:** 1 / 17
 - **Medium:** 0 / 16
 - **Hard:** 0 / 8
 
@@ -31,8 +31,8 @@ This folder contains foundational math and logic building problems from Geeksfor
 
 | # | Problem | GFG Link | Solution Code | Status |
 |---|---------|----------|---------------|--------|
-| 01 | Sum of Digits | [Solve](https://www.geeksforgeeks.org/problems/sum-of-digits1742/1) | [Code](./Easy/sum_of_digits/sum_of_digits.cpp) | 🔒 Locked |
-| 02 | Reverse Digit | [Solve](https://www.geeksforgeeks.org/problems/reverse-digit0316/1) | [Code](./Easy/reverse_digit/reverse_digit.cpp) | 🔒 Locked |
+| 01 | Sum of Digits | [Solve](https://www.geeksforgeeks.org/problems/sum-of-digits1742/1) | [Code](./Easy/sum_of_digits/sum_of_digits.cpp) | ✅ Completed |
+| 02 | Reverse Digit | [Solve](https://www.geeksforgeeks.org/problems/reverse-digit0316/1) | [Code](./Easy/reverse_digit/reverse_digit.cpp) | 🔄 In Progress |
 | 03 | Prime Number | [Solve](https://www.geeksforgeeks.org/problems/prime-number2314/1) | [Code](./Easy/prime_number/prime_number.cpp) | 🔒 Locked |
 | 04 | Check If a Number is Power of Another Number | [Solve](https://www.geeksforgeeks.org/problems/check-if-a-number-is-power-of-another-number5442/1) | [Code](./Easy/check_if_a_number_is_power_of_another_number/check_if_a_number_is_power_of_another_number.cpp) | 🔒 Locked |
 | 05 | Overlapping Rectangles | [Solve](https://www.geeksforgeeks.org/problems/overlapping-rectangles1924/1) | [Code](./Easy/overlapping_rectangles/overlapping_rectangles.cpp) | 🔒 Locked |

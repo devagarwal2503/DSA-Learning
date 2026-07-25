@@ -69,3 +69,17 @@ This file documents the key mathematical principles, formulas, and optimization 
         $$\text{Opposite Face} = 7 - N$$
     *   **How it helped:** Replaces array lookup/storage overhead with a simple, direct subtraction operation.
 
+---
+
+## 6. Digit Extraction & Sum of Digits
+
+*   **Problem Context:** Extracting individual digits of a number $N$ to sum them up or reverse them.
+*   **The Modulo-Division Loop Approach:**
+    *   **Formula/Logic:**
+        1.  Extract the last digit using modulo 10: `digit = N % 10`.
+        2.  Perform arithmetic updates (e.g. `sum += digit`).
+        3.  Truncate the last digit using integer division by 10: `N = N / 10`.
+        4.  Repeat in a loop while `N > 0`.
+    *   **How it helped:** Allows processing base-10 digits sequentially from right to left in $O(\log_{10}(N))$ time.
+
+
