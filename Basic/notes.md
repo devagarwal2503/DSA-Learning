@@ -55,3 +55,17 @@ This file documents the key mathematical principles, formulas, and optimization 
     4.  Compare absolute distances to $N$:
         $$\text{dist1} = |N - \text{num1}|, \quad \text{dist2} = |N - \text{num2}|$$
         Return the closer value. If distances are equal, `num2` is returned since quotient truncation rounds toward zero, guaranteeing that `num2` has the larger absolute value.
+
+---
+
+## 5. Opposite Face of a Dice
+
+*   **Problem Context:** Finding the number on the opposite face of a standard 6-sided dice given the top face value $N$.
+*   **The Array Mapping Approach:**
+    *   **Logic:** Predefine a reverse array of size 6: `[6, 5, 4, 3, 2, 1]`. Retrieve `array[n-1]`.
+*   **The Constant Arithmetic Approach ($O(1)$):**
+    *   **Logic:** On any standard 6-sided dice, the sum of opposite faces is always exactly $7$.
+    *   **Formula:**
+        $$\text{Opposite Face} = 7 - N$$
+    *   **How it helped:** Replaces array lookup/storage overhead with a simple, direct subtraction operation.
+

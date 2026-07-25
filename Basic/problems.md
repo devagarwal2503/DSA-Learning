@@ -7,8 +7,8 @@ This folder contains foundational math and logic building problems from Geeksfor
 ## 📊 Progress Summary
 
 - **Total Problems:** 46
-- **Completed:** 0 / 46
-- **Basic:** 0 / 5
+- **Completed:** 5 / 46
+- **Basic:** 5 / 5
 - **Easy:** 0 / 17
 - **Medium:** 0 / 16
 - **Hard:** 0 / 8
@@ -19,11 +19,11 @@ This folder contains foundational math and logic building problems from Geeksfor
 
 | # | Problem | GFG Link | Solution Code | Status |
 |---|---------|----------|---------------|--------|
-| 01 | Odd or Even | [Solve](https://www.geeksforgeeks.org/problems/odd-or-even3618/1) | [Code](./Basic/odd_or_even/odd_or_even.cpp) | 🔒 Locked |
-| 02 | Reverse Coding | [Solve](https://www.geeksforgeeks.org/problems/reverse-coding2452/1) | [Code](./Basic/reverse_coding/reverse_coding.cpp) | 🔒 Locked |
-| 03 | Sum of Squares of First N Natural Numbers | [Solve](https://www.geeksforgeeks.org/problems/sum-of-squares-of-first-n-natural-numbers/1) | [Code](./Basic/sum_of_squares_of_first_n_natural_numbers/sum_of_squares_of_first_n_natural_numbers.cpp) | 🔒 Locked |
-| 04 | Closest Number | [Solve](https://www.geeksforgeeks.org/problems/closest-number5728/1) | [Code](./Basic/closest_number/closest_number.cpp) | 🔒 Locked |
-| 05 | The Dice Problem | [Solve](https://www.geeksforgeeks.org/problems/the-dice-problem2316/1) | [Code](./Basic/the_dice_problem/the_dice_problem.cpp) | 🔒 Locked |
+| 01 | Odd or Even | [Solve](https://www.geeksforgeeks.org/problems/odd-or-even3618/1) | [Code](./Basic/odd_or_even/odd_or_even.cpp) | ✅ Completed |
+| 02 | Reverse Coding | [Solve](https://www.geeksforgeeks.org/problems/reverse-coding2452/1) | [Code](./Basic/reverse_coding/reverse_coding.cpp) | ✅ Completed |
+| 03 | Sum of Squares of First N Natural Numbers | [Solve](https://www.geeksforgeeks.org/problems/sum-of-squares-of-first-n-natural-numbers/1) | [Code](./Basic/sum_of_squares_of_first_n_natural_numbers/sum_of_squares_of_first_n_natural_numbers.cpp) | ✅ Completed |
+| 04 | Closest Number | [Solve](https://www.geeksforgeeks.org/problems/closest-number5728/1) | [Code](./Basic/closest_number/closest_number.cpp) | ✅ Completed |
+| 05 | The Dice Problem | [Solve](https://www.geeksforgeeks.org/problems/the-dice-problem2316/1) | [Code](./Basic/the_dice_problem/the_dice_problem.cpp) | ✅ Completed |
 
 ---
 
