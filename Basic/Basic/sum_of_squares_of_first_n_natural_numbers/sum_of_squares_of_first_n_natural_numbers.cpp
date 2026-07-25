@@ -7,24 +7,58 @@
  * ═══════════════════════════════════════════════════════════
  *
  *  💡 AHA! MOMENT:
- *  [The core insight that makes the optimal approach work]
+ *  Finding mathematical formulas to replace iterative loops. Sum of squares is mathematically defined as [N * (N + 1) * (2N + 1)] / 6.
  *
  *  APPROACH:
- *  1. [Step 1]
- *  2. [Step 2]
+ *  - Brute Force (Solution 1): Iterate from 1 to N using a loop, adding (i * i) to a sum variable. (Time taken: 0.02s, O(N)).
+ *  - Optimal (Solution 2): Directly apply the formula (n * (n + 1) * (2n + 1)) / 6. (Time taken: 0.01s, O(1)).
  *
- *  ⏱️  Time  : O(?)
- *  💾  Space : O(?)
+ *  ⏱️  Time  : O(1) [Optimal] | O(N) [Brute Force]
+ *  💾  Space : O(1)
  * ═══════════════════════════════════════════════════════════
  */
 
 #include <bits/stdc++.h>
 using namespace std;
 
+// Solution 1
 class Solution {
-public:
-    
+	public:
+	int sumOfSquares(int n) {
+		// code here
+		int sum = 0;
+		
+		if (n == 0) {
+			return 0;
+		}
+		else {
+			for (int i = 1; i <= n; i++)
+				{
+				sum = sum + (i *i);
+			}
+			return sum;
+		}
+	}
 };
+
+// Solution 2
+class Solution {
+	public:
+	int sumOfSquares(int n) {
+		// code here
+		int sum = 0;
+		
+		if (n == 0) {
+			return 0;
+		}
+		else {
+			sum = (n * (n + 1) *(2*n + 1)) /6;
+			
+			return sum;
+		}
+	}
+};
+
 
 int main() {
     Solution sol;
