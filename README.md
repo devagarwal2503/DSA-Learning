@@ -336,10 +336,16 @@ Every problem I solve follows this exact structured template:
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    // Let's build the logic!
-    cout << "Test inputs here..." << "\n";
+class Solution {
+public:
+// Let's build the logic!
+    
+    
+};
 
+int main() {
+    Solution sol;
+    
     return 0;
 }
 ```

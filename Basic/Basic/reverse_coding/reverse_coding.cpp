@@ -21,9 +21,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    // Let's build the logic!
-    cout << "Test inputs here..." << "\n";
+class Solution {
+public:
+    
+};
 
+int main() {
+    Solution sol;
+    
     return 0;
 }
