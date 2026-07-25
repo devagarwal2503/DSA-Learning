@@ -23,7 +23,8 @@
 
 <img src="https://img.shields.io/badge/Language-C%2B%2B20-0EA5E9?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 <img src="https://img.shields.io/badge/Quest%20Start-July%2022%2C%202026-22D3EE?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Problems%20Solved-0%20%2F%20~114-F87171?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Problems%20Solved-0%20%2F%20160-F87171?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Logic%20Building-0%20%2F%2046-EAB308?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Patterns%20Unlocked-0%20%2F%2028-34D399?style=for-the-badge"/>
 
 </div>
@@ -73,6 +74,12 @@ Before a single line of code, I commit to these rules:
 
 ```mermaid
 graph LR
+    subgraph P0["🎯 Foundations: Logic Building"]
+        direction TB
+        L1[Basic Math & Numbers] --> L2[Array & Divisibility]
+        L2 --> L3[Bit Manipulation & Sieves]
+    end
+
     subgraph P1["🏗️ Phase 1: Linear Foundations"]
         direction TB
         A1[Two Pointers] --> A2[Sliding Window]
@@ -102,10 +109,12 @@ graph LR
         D3 --> D4[Bit Manipulation]
     end
 
+    P0 --> P1
     P1 --> P2
     P2 --> P3
     P3 --> P4
 
+    style P0 fill:#1e1b4b,stroke:#EAB308,color:#fff
     style P1 fill:#1e1b4b,stroke:#A855F7,color:#fff
     style P2 fill:#1e1b4b,stroke:#3B82F6,color:#fff
     style P3 fill:#1e1b4b,stroke:#10B981,color:#fff
@@ -117,6 +126,20 @@ graph LR
 ## 📊 Master Progress Tracker
 
 > **Legend:** 🔒 Locked &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; 🧪 Practicing &nbsp;|&nbsp; ✅ Completed
+
+### 🎯 Foundations — GFG Logic Building
+Before entering the pattern-based quest, I am conquering 46 math and logic building problems on GFG to set a strong baseline. Progress is tracked sub-folder by sub-folder.
+
+Detailed problem sheet is available at: [Basic/problems.md](./Basic/problems.md)
+
+| Category | Description | Problems | Link | Status |
+|:---:|---|:---:|:---:|:---:|
+| 🟢 **Basic** | Foundational arithmetic & basic logic loops | 0/5 | [View](./Basic/Basic/) | 🔒 Locked |
+| 🔵 **Easy** | Prime checks, GCD/LCM, sequence math, fractions | 0/17 | [View](./Basic/Easy/) | 🔒 Locked |
+| 🟡 **Medium** | Divisibility checks, combinatorics, large exponentiation | 0/16 | [View](./Basic/Medium/) | 🔒 Locked |
+| 🔴 **Hard** | Prime sieves, recursion basics (Tower of Hanoi), Josephus | 0/8 | [View](./Basic/Hard/) | 🔒 Locked |
+
+---
 
 ### ⚡ Phase 1 — Linear Foundations
 
@@ -313,37 +336,9 @@ Every problem I solve follows this exact structured template:
 #include <bits/stdc++.h>
 using namespace std;
 
-// ─── Type Aliases ─────────────────────────────────────────
-using ll  = long long;
-using vi  = vector<int>;
-using vll = vector<long long>;
-using pii = pair<int, int>;
-using vvi = vector<vector<int>>;
-
-// ─── Local Debug Macro (stripped in Online Judge) ─────────
-#ifndef ONLINE_JUDGE
-  #define dbg(x) cerr << "[DBG] " << #x << " = " << (x) << "\n"
-#else
-  #define dbg(x)
-#endif
-
-// ─── Solution ─────────────────────────────────────────────
-class Solution {
-public:
-    // Brute Force: O(?) Time | O(?) Space
-    // ...
-
-    // Optimal: O(?) Time | O(?) Space
-    // PATTERN: [Pattern Name]
-};
-
-// ─── Driver ───────────────────────────────────────────────
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    Solution sol;
-    // test cases here
+    // Let's build the logic!
+    cout << "Test inputs here..." << "\n";
 
     return 0;
 }
