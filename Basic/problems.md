@@ -63,7 +63,7 @@ This folder contains foundational math and logic building problems from Geeksfor
 | 06 | A Simple Fraction | [Solve](https://www.geeksforgeeks.org/problems/a-simple-fraction0921/1) | [Code](./Medium/a_simple_fraction/a_simple_fraction.cpp) | 🔒 Locked |
 | 07 | Npr | [Solve](https://www.geeksforgeeks.org/problems/npr4253/1) | [Code](./Medium/npr/npr.cpp) | 🔒 Locked |
 | 08 | Ncr | [Solve](https://www.geeksforgeeks.org/problems/ncr1019/1) | [Code](./Medium/ncr/ncr.cpp) | 🔒 Locked |
-| 09 | Pascal Triangle | [Solve](https://www.geeksforgeeks.org/dsa/pascal-triangle/) | [Code](./Medium/pascal_triangle/pascal_triangle.cpp) | 🔒 Locked |
+| 09 | Pascal Triangle | [Reference](https://www.geeksforgeeks.org/dsa/pascal-triangle/) | [Code](./Medium/pascal_triangle/pascal_triangle.cpp) | 📖 No Question but Reference |
 | 10 | All Divisors of a Number | [Solve](https://www.geeksforgeeks.org/problems/all-divisors-of-a-number/1) | [Code](./Medium/all_divisors_of_a_number/all_divisors_of_a_number.cpp) | 🔒 Locked |
 | 11 | Prime Factors | [Solve](https://www.geeksforgeeks.org/problems/prime-factors5052/1) | [Code](./Medium/prime_factors/prime_factors.cpp) | 🔒 Locked |
 | 12 | Largest Prime Factor | [Solve](https://www.geeksforgeeks.org/problems/largest-prime-factor2601/1) | [Code](./Medium/largest_prime_factor/largest_prime_factor.cpp) | 🔒 Locked |
@@ -82,8 +82,8 @@ This folder contains foundational math and logic building problems from Geeksfor
 | 02 | Super Primes | [Solve](https://www.geeksforgeeks.org/problems/super-primes2443/1) | [Code](./Hard/super_primes/super_primes.cpp) | 🔒 Locked |
 | 03 | Angle Between Hour and Minute Hand | [Solve](https://www.geeksforgeeks.org/problems/angle-between-hour-and-minute-hand0545/1) | [Code](./Hard/angle_between_hour_and_minute_hand/angle_between_hour_and_minute_hand.cpp) | 🔒 Locked |
 | 04 | Tower of Hanoi | [Solve](https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) | [Code](./Hard/tower_of_hanoi/tower_of_hanoi.cpp) | 🔒 Locked |
-| 05 | Rat and Poisoned Bottle Problem | [Solve](https://www.geeksforgeeks.org/dsa/rat-and-poisoned-bottle-problem/) | [Code](./Hard/rat_and_poisoned_bottle_problem/rat_and_poisoned_bottle_problem.cpp) | 🔒 Locked |
-| 06 | 8 Puzzle Problem | [Solve](https://www.geeksforgeeks.org/dsa/8-puzzle-problem-using-branch-and-bound/) | [Code](./Hard/8_puzzle_problem_using_branch_and_bound/8_puzzle_problem_using_branch_and_bound.cpp) | 🔒 Locked |
+| 05 | Rat and Poisoned Bottle Problem | [Reference](https://www.geeksforgeeks.org/dsa/rat-and-poisoned-bottle-problem/) | [Code](./Hard/rat_and_poisoned_bottle_problem/rat_and_poisoned_bottle_problem.cpp) | 📖 No Question but Reference |
+| 06 | 8 Puzzle Problem | [Reference](https://www.geeksforgeeks.org/dsa/8-puzzle-problem-using-branch-and-bound/) | [Code](./Hard/8_puzzle_problem_using_branch_and_bound/8_puzzle_problem_using_branch_and_bound.cpp) | 📖 No Question but Reference |
 | 07 | Euler Totient Function | [Solve](https://www.geeksforgeeks.org/problems/euler-totient-function4604/1) | [Code](./Hard/euler_totient_function/euler_totient_function.cpp) | 🔒 Locked |
 | 08 | Josephus Problem | [Solve](https://www.geeksforgeeks.org/problems/josephus-problem/1) | [Code](./Hard/josephus_problem/josephus_problem.cpp) | 🔒 Locked |
 
