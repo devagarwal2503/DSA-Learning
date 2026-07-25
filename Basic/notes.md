@@ -71,15 +71,16 @@ This file documents the key mathematical principles, formulas, and optimization 
 
 ---
 
-## 6. Digit Extraction & Sum of Digits
+## 6. Digit Extraction, Reversal, & Sum
 
-*   **Problem Context:** Extracting individual digits of a number $N$ to sum them up or reverse them.
+*   **Problem Context:** Extracting individual digits of a number $N$ to sum them up, reverse them, or check properties.
 *   **The Modulo-Division Loop Approach:**
     *   **Formula/Logic:**
         1.  Extract the last digit using modulo 10: `digit = N % 10`.
-        2.  Perform arithmetic updates (e.g. `sum += digit`).
-        3.  Truncate the last digit using integer division by 10: `N = N / 10`.
-        4.  Repeat in a loop while `N > 0`.
-    *   **How it helped:** Allows processing base-10 digits sequentially from right to left in $O(\log_{10}(N))$ time.
+        2.  For **Summing**: `sum += digit`.
+        3.  For **Reversing**: Shift the current reversed number left by one decimal place and add the digit: `rev = (rev * 10) + digit`.
+        4.  Truncate the last digit using integer division by 10: `N = N / 10`.
+        5.  Repeat in a loop while `N > 0`.
+    *   **How it helped:** Shifting decimal places using multiplication by 10 allows building numbers dynamically from right to left in $O(\log_{10}(N))$ time.
 
 
