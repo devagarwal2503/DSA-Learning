@@ -7,9 +7,9 @@ This folder contains foundational math and logic building problems from Geeksfor
 ## 📊 Progress Summary
 
 - **Total Problems:** 46
-- **Completed:** 7 / 46
+- **Completed:** 8 / 46
 - **Basic:** 5 / 5
-- **Easy:** 2 / 17
+- **Easy:** 3 / 17
 - **Medium:** 0 / 16
 - **Hard:** 0 / 8
 
@@ -33,8 +33,8 @@ This folder contains foundational math and logic building problems from Geeksfor
 |---|---------|----------|---------------|--------|
 | 01 | Sum of Digits | [Solve](https://www.geeksforgeeks.org/problems/sum-of-digits1742/1) | [Code](./Easy/sum_of_digits/sum_of_digits.cpp) | ✅ Completed |
 | 02 | Reverse Digit | [Solve](https://www.geeksforgeeks.org/problems/reverse-digit0316/1) | [Code](./Easy/reverse_digit/reverse_digit.cpp) | ✅ Completed |
-| 03 | Prime Number | [Solve](https://www.geeksforgeeks.org/problems/prime-number2314/1) | [Code](./Easy/prime_number/prime_number.cpp) | 🔄 In Progress |
-| 04 | Check If a Number is Power of Another Number | [Solve](https://www.geeksforgeeks.org/problems/check-if-a-number-is-power-of-another-number5442/1) | [Code](./Easy/check_if_a_number_is_power_of_another_number/check_if_a_number_is_power_of_another_number.cpp) | 🔒 Locked |
+| 03 | Prime Number | [Solve](https://www.geeksforgeeks.org/problems/prime-number2314/1) | [Code](./Easy/prime_number/prime_number.cpp) | ✅ Completed |
+| 04 | Check If a Number is Power of Another Number | [Solve](https://www.geeksforgeeks.org/problems/check-if-a-number-is-power-of-another-number5442/1) | [Code](./Easy/check_if_a_number_is_power_of_another_number/check_if_a_number_is_power_of_another_number.cpp) | 🔄 In Progress |
 | 05 | Overlapping Rectangles | [Solve](https://www.geeksforgeeks.org/problems/overlapping-rectangles1924/1) | [Code](./Easy/overlapping_rectangles/overlapping_rectangles.cpp) | 🔒 Locked |
 | 06 | Factorial | [Solve](https://www.geeksforgeeks.org/problems/factorial5739/1) | [Code](./Easy/factorial/factorial.cpp) | 🔒 Locked |
 | 07 | Pair Cube Count | [Solve](https://www.geeksforgeeks.org/problems/pair-cube-count4132/1) | [Code](./Easy/pair_cube_count/pair_cube_count.cpp) | 🔒 Locked |

@@ -83,4 +83,20 @@ This file documents the key mathematical principles, formulas, and optimization 
         5.  Repeat in a loop while `N > 0`.
     *   **How it helped:** Shifting decimal places using multiplication by 10 allows building numbers dynamically from right to left in $O(\log_{10}(N))$ time.
 
+---
+
+## 7. Primality Testing (Checking for Prime Numbers)
+
+*   **Problem Context:** Checking if an integer $N$ is prime (divisible only by 1 and itself).
+*   **The Native Linear Search Approach ($O(N)$):**
+    *   **Logic:** Loop from $2$ to $N - 1$ and check if any number divides $N$ evenly.
+*   **The Square Root Space Reduction ($O(\sqrt{N})$):**
+    *   **Formula/Logic:**
+        1.  Divisors of $N$ come in symmetric pairs $(a, b)$ such that $a \times b = N$.
+        2.  If both $a$ and $b$ were greater than $\sqrt{N}$, then $a \times b$ would be greater than $N$ (a contradiction).
+        3.  Therefore, at least one divisor in any factor pair must be less than or equal to $\sqrt{N}$.
+        4.  Thus, if we find no divisors in the range $[2, \sqrt{N}]$ (checked programmatically using `i * i <= n`), then no divisors exist anywhere, and $N$ is prime.
+    *   **How it helped:** Reduces the loop boundary exponentially from $N$ to $\sqrt{N}$, making it extremely fast for large values of $N$.
+
+
 
