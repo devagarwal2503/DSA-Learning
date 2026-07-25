@@ -7,23 +7,34 @@
  * ═══════════════════════════════════════════════════════════
  *
  *  💡 AHA! MOMENT:
- *  [The core insight that makes the optimal approach work]
+ *  Any integer divisible by 2 with a remainder of 0 is even.
  *
  *  APPROACH:
- *  1. [Step 1]
- *  2. [Step 2]
+ *  1. Apply the modulo operator (n % 2) to check divisibility.
+ *  2. If the remainder is 0, return true; else return false.
  *
- *  ⏱️  Time  : O(?)
- *  💾  Space : O(?)
+ *  ⏱️  Time  : O(1)
+ *  💾  Space : O(1)
  * ═══════════════════════════════════════════════════════════
  */
 
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    // Let's build the logic!
-    cout << "Test inputs here..." << "\n";
+class Solution {
+public:
+    bool isEven(int n) {
+        // code here
+        if (n % 2 == 0) {
+            return true;
+        }
+        return false;
+    }
+};
 
+int main() {
+    Solution sol;
+    // test cases here
+    
     return 0;
 }
