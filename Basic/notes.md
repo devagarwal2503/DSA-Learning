@@ -98,5 +98,23 @@ This file documents the key mathematical principles, formulas, and optimization 
         4.  Thus, if we find no divisors in the range $[2, \sqrt{N}]$ (checked programmatically using `i * i <= n`), then no divisors exist anywhere, and $N$ is prime.
     *   **How it helped:** Reduces the loop boundary exponentially from $N$ to $\sqrt{N}$, making it extremely fast for large values of $N$.
 
+---
+
+## 8. Exponential Equation Solver (Power of Another Number)
+
+*   **Problem Context:** Checking if an integer $Y$ is a power of another integer $X$ ($X^P = Y$).
+*   **The Iterative Trap ($O(\log_X(Y))$):**
+    *   **Logic:** Start at 1 or $X$, and multiply by $X$ in a loop until the result equals or exceeds $Y$.
+    *   *Why it is sub-optimal:* Although it works, it is slow when $Y$ is large or when repeated operations are performed, leading to Time Limit Exceeded (TLE) in online judges.
+*   **The Logarithmic Formula Approach ($O(1)$):**
+    *   **Logic:**
+        1.  Take the logarithm on both sides of the equation $X^P = Y$:
+            $$\log(X^P) = \log(Y) \implies P \times \log(X) = \log(Y) \implies P = \frac{\log(Y)}{\log(X)}$$
+        2.  Compute $P = \frac{\log(Y)}{\log(X)}$ using standard `log()` or `log10()`.
+        3.  Check if $P$ is an integer by comparing it to its rounded value within a small floating point tolerance (e.g. $10^{-10}$):
+            $$\left| P - \text{round}(P) \right| < 10^{-10}$$
+    *   **How it helped:** Solves the relation in constant $O(1)$ time, eliminating all loops.
+
+
 
 
