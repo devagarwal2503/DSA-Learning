@@ -147,6 +147,25 @@ This file documents the key mathematical principles, formulas, and optimization 
         3.  Recursive step returns `N * factorial(N - 1)`.
     *   **How it helped:** Reduces source code size and implements a clean mathematical representation using call stacks, serving as a fundamental introduction to recursion.
 
+---
+
+## 11. Search Space Reduction for Equations (Pair Cube Count)
+
+*   **Problem Context:** Finding the number of integer pairs $(a, b)$ such that $a^3 + b^3 = N$, where $a \ge 1$ and $b \ge 0$.
+*   **The Quadratic Iterative Trap ($O(N^2)$ time):**
+    *   **Logic:** Run nested loops for $a$ and $b$ from $1$ to $N$ to find matching pairs.
+    *   *Why it is invalid:* Highly inefficient; for large values of $N$ (e.g. $10^9$), it results in TLE as the execution scales quadratically.
+*   **Equation Rearrangement & Cube Root Bounding ($O(\sqrt[3]{N})$ time):**
+    *   **Logic:**
+        1.  Rearrange the equation:
+            $$b^3 = N - a^3$$
+        2.  Identify boundaries: Since $b \ge 0$, then $a^3 \le N$, meaning $a$ is strictly bounded by:
+            $$a \le \sqrt[3]{N}$$
+        3.  Iterate $a$ from $1$ up to $\sqrt[3]{N}$ (using `cbrt(N)`).
+        4.  For each $a$, compute `diff = N - a^3`. If the cube root of `diff` (truncated to integer) cubed is equal to `diff` (i.e. `cbrt(diff)^3 == diff`), it represents a valid perfect cube, so we increment the pair counter.
+    *   **How it helped:** Reduces the number of checks from $O(N^2)$ to just $O(\sqrt[3]{N})$ (e.g. for $N = 1000$, checking only 10 values instead of $1,000,000$).
+
+
 
 
 

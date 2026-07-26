@@ -7,9 +7,9 @@ This folder contains foundational math and logic building problems from Geeksfor
 ## 📊 Progress Summary
 
 - **Total Problems:** 46
-- **Completed:** 11 / 46
+- **Completed:** 12 / 46
 - **Basic:** 5 / 5
-- **Easy:** 6 / 17
+- **Easy:** 7 / 17
 - **Medium:** 0 / 16
 - **Hard:** 0 / 8
 
@@ -37,8 +37,8 @@ This folder contains foundational math and logic building problems from Geeksfor
 | 04 | Check If a Number is Power of Another Number | [Solve](https://www.geeksforgeeks.org/problems/check-if-a-number-is-power-of-another-number5442/1) | [Code](./Easy/check_if_a_number_is_power_of_another_number/check_if_a_number_is_power_of_another_number.cpp) | ✅ Completed |
 | 05 | Overlapping Rectangles | [Solve](https://www.geeksforgeeks.org/problems/overlapping-rectangles1924/1) | [Code](./Easy/overlapping_rectangles/overlapping_rectangles.cpp) | ✅ Completed |
 | 06 | Factorial | [Solve](https://www.geeksforgeeks.org/problems/factorial5739/1) | [Code](./Easy/factorial/factorial.cpp) | ✅ Completed |
-| 07 | Pair Cube Count | [Solve](https://www.geeksforgeeks.org/problems/pair-cube-count4132/1) | [Code](./Easy/pair_cube_count/pair_cube_count.cpp) | 🔄 In Progress |
-| 08 | Gcd of Two Numbers | [Solve](https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1) | [Code](./Easy/gcd_of_two_numbers/gcd_of_two_numbers.cpp) | 🔒 Locked |
+| 07 | Pair Cube Count | [Solve](https://www.geeksforgeeks.org/problems/pair-cube-count4132/1) | [Code](./Easy/pair_cube_count/pair_cube_count.cpp) | ✅ Completed |
+| 08 | Gcd of Two Numbers | [Solve](https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1) | [Code](./Easy/gcd_of_two_numbers/gcd_of_two_numbers.cpp) | 🔄 In Progress |
 | 09 | Lcm of Two Numbers | [Solve](https://www.geeksforgeeks.org/problems/lcm-of-two-numbers/1) | [Code](./Easy/lcm_of_two_numbers/lcm_of_two_numbers.cpp) | 🔒 Locked |
 | 10 | Perfect Numbers | [Solve](https://www.geeksforgeeks.org/problems/perfect-numbers3207/1) | [Code](./Easy/perfect_numbers/perfect_numbers.cpp) | 🔒 Locked |
 | 11 | Add Two Fractions | [Solve](https://www.geeksforgeeks.org/problems/add-two-fractions/1) | [Code](./Easy/add_two_fractions/add_two_fractions.cpp) | 🔒 Locked |
