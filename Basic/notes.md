@@ -115,6 +115,24 @@ This file documents the key mathematical principles, formulas, and optimization 
             $$\left| P - \text{round}(P) \right| < 10^{-10}$$
     *   **How it helped:** Solves the relation in constant $O(1)$ time, eliminating all loops.
 
+---
+
+## 9. Overlapping Rectangles (Boundary Intersection vs. Non-Overlap Separation)
+
+*   **Problem Context:** Determining whether two axis-aligned rectangles overlap, given their top-left vertices $(L_1, L_2)$ and bottom-right vertices $(R_1, R_2)$.
+*   **The Over-Engineering Trap:**
+    *   Trying to simulate the rectangles in a 2D grid/array, or calculating all intersection coordinates.
+    *   *Why it fails:* Complex, uses large/infinite memory, and is highly prone to coordinate off-by-one errors.
+*   **The Non-Overlap Separation Logic ($O(1)$):**
+    *   **Core Principle:** It is much easier to define the conditions where two rectangles do **not** overlap. Two rectangles are separate if and only if one of the following is true:
+        1.  **Rect 1 is to the left of Rect 2:** $R_1[x] < L_2[x]$
+        2.  **Rect 1 is to the right of Rect 2:** $L_1[x] > R_2[x]$
+        3.  **Rect 1 is above Rect 2:** $R_1[y] > L_2[y]$ (assuming standard coordinates where $Y$ decreases downwards)
+        4.  **Rect 1 is below Rect 2:** $L_1[y] < R_2[y]$
+    *   **Formula:** If any of these four separation checks are true, return `false`. Otherwise, they must overlap, so return `true`.
+    *   **How it helped:** Simplifies checking overlap to just four boundary comparisons, running in $O(1)$ time.
+
+
 
 
 
