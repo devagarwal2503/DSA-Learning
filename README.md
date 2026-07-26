@@ -23,8 +23,8 @@
 
 <img src="https://img.shields.io/badge/Language-C%2B%2B20-0EA5E9?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 <img src="https://img.shields.io/badge/Quest%20Start-July%2022%2C%202026-22D3EE?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Problems%20Solved-10%20%2F%20160-F87171?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Logic%20Building-10%20%2F%2046-EAB308?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Problems%20Solved-11%20%2F%20160-F87171?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Logic%20Building-11%20%2F%2046-EAB308?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Patterns%20Unlocked-0%20%2F%2028-34D399?style=for-the-badge"/>
 
 </div>
@@ -135,7 +135,7 @@ Detailed problem sheet is available at: [Basic/problems.md](./Basic/problems.md)
 | Category | Description | Problems | Link | Status |
 |:---:|---|:---:|:---:|:---:|
 | 🟢 **Basic** | Foundational arithmetic & basic logic loops | 5/5 | [View](./Basic/Basic/) | ✅ Completed |
-| 🔵 **Easy** | Prime checks, GCD/LCM, sequence math, fractions | 5/17 | [View](./Basic/Easy/) | 🔄 In Progress |
+| 🔵 **Easy** | Prime checks, GCD/LCM, sequence math, fractions | 6/17 | [View](./Basic/Easy/) | 🔄 In Progress |
 | 🟡 **Medium** | Divisibility checks, combinatorics, large exponentiation | 0/16 | [View](./Basic/Medium/) | 🔒 Locked |
 | 🔴 **Hard** | Prime sieves, recursion basics (Tower of Hanoi), Josephus | 0/8 | [View](./Basic/Hard/) | 🔒 Locked |
 

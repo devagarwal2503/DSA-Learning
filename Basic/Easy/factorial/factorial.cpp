@@ -7,14 +7,14 @@
  * ═══════════════════════════════════════════════════════════
  *
  *  💡 AHA! MOMENT:
- *  [The core insight that makes the optimal approach work]
+ *  Factorial is mathematically recursive: N! = N * (N - 1)!. Expressing this recursively simplifies code structure and size significantly compared to loop iterations.
  *
  *  APPROACH:
- *  1. [Step 1]
- *  2. [Step 2]
+ *  - Iterative Approach (Solution 1): Initialize product to 1, loop from 1 to N, multiplying the product at each step. (Time: O(N), Space: O(1)).
+ *  - Recursive Approach (Solution 2): Return 1 if N = 0 (base case). Otherwise, return N * factorial(N - 1) (recursive step). (Time: O(N), Space: O(N) call stack).
  *
- *  ⏱️  Time  : O(?)
- *  💾  Space : O(?)
+ *  ⏱️  Time  : O(N)
+ *  💾  Space : O(1) [Iterative] | O(N) [Recursive Stack]
  * ═══════════════════════════════════════════════════════════
  */
 
@@ -22,8 +22,31 @@
 using namespace std;
 
 class Solution {
-public:
-    
+  public:
+    int factorial(int n) {
+        // code here
+        int fact = 1;
+        
+        for(int i = 1; i <= n; i++)
+        {
+            fact = fact * i;
+        }
+        
+        return fact;
+    }
+};
+
+// With Recursion
+class Solution {
+	public:
+	int factorial(int n) {
+		// code here
+		
+		if (n == 0)
+			return 1;
+		
+		return n * factorial(n - 1);
+	}
 };
 
 int main() {

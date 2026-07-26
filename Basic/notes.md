@@ -132,6 +132,22 @@ This file documents the key mathematical principles, formulas, and optimization 
     *   **Formula:** If any of these four separation checks are true, return `false`. Otherwise, they must overlap, so return `true`.
     *   **How it helped:** Simplifies checking overlap to just four boundary comparisons, running in $O(1)$ time.
 
+---
+
+## 10. Factorial Computation (Iterative vs. Recursive Logic)
+
+*   **Problem Context:** Calculating the product of all positive integers less than or equal to $N$ ($N! = N \times (N-1) \times \dots \times 1$).
+*   **The Iterative Loop Approach ($O(N)$ time, $O(1)$ space):**
+    *   **Logic:** Initialize a variable `fact = 1` and loop from $1$ to $N$, multiplying the variable by the iterator.
+*   **The Recursive Paradigm ($O(N)$ time, $O(N)$ call stack space):**
+    *   **Logic:**
+        1.  Factorial is mathematically defined as:
+            $$N! = N \times (N - 1)!$$
+        2.  Base case is $0! = 1$ (returns 1 when `N == 0`).
+        3.  Recursive step returns `N * factorial(N - 1)`.
+    *   **How it helped:** Reduces source code size and implements a clean mathematical representation using call stacks, serving as a fundamental introduction to recursion.
+
+
 
 
 
