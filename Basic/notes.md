@@ -165,6 +165,32 @@ This file documents the key mathematical principles, formulas, and optimization 
         4.  For each $a$, compute `diff = N - a^3`. If the cube root of `diff` (truncated to integer) cubed is equal to `diff` (i.e. `cbrt(diff)^3 == diff`), it represents a valid perfect cube, so we increment the pair counter.
     *   **How it helped:** Reduces the number of checks from $O(N^2)$ to just $O(\sqrt[3]{N})$ (e.g. for $N = 1000$, checking only 10 values instead of $1,000,000$).
 
+---
+
+## 12. Greatest Common Divisor (GCD) / Euclidean Algorithm
+
+*   **Problem Context:** Finding the Greatest Common Divisor (GCD) of two integers $A$ and $B$.
+*   **The Linear Scan Trap ($O(\min(A, B))$ time):**
+    *   **Logic:** Loop downward from $\min(A, B)$ to 1. The first integer that divides both $A$ and $B$ evenly is returned. (Time: $O(\min(A, B))$, TLE).
+*   **Euclidean Algorithm via Subtraction ($O(A + B)$ time):**
+    *   **Logic:** Recursively subtract the smaller number from the larger one:
+        $$\text{GCD}(A, B) = \text{GCD}(A - B, B) \quad (\text{for } A > B)$$
+    *   *Why it fails:* If $A = 10^9$ and $B = 1$, it runs $10^9$ recursion steps, causing a **Stack Overflow** or TLE.
+*   **Euclidean Subtraction with Divisibility Checks ($O(A)$ worst-case):**
+    *   **Logic:** Check if the larger number is directly divisible by the smaller number (`A % B == 0` or `B % A == 0`). If so, short-circuit the recursion and return the divisor immediately. Otherwise, continue subtraction.
+    *   *Why it is still sub-optimal:* Although it skips a lot of recursion for direct multiples, it still resorts to slow subtractions (and TLE) if the numbers are not clean multiples.
+*   **Optimal Modulo Euclidean Algorithm ($O(\log(\min(A, B)))$ time):**
+    *   **Logic:** Replace subtraction operations completely with remainder division (modulo):
+        $$\text{GCD}(A, B) = \text{GCD}(B, A \pmod B)$$
+    *   **Implementation:**
+        ```cpp
+        int gcd(int a, int b) {
+            return b == 0 ? a : gcd(b, a % b);
+        }
+        ```
+    *   **How it helped:** Reduces the numbers logarithmically, resolving GCD calculations for numbers on a $10^9$ scale in less than 30 operations.
+
+
 
 
 
