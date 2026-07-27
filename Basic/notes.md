@@ -190,6 +190,24 @@ This file documents the key mathematical principles, formulas, and optimization 
         ```
     *   **How it helped:** Reduces the numbers logarithmically, resolving GCD calculations for numbers on a $10^9$ scale in less than 30 operations.
 
+---
+
+## 13. Least Common Multiple (LCM) & Integer Overflow Prevention
+
+*   **Problem Context:** Finding the Least Common Multiple (LCM) of two integers $A$ and $B$.
+*   **The Iterative Search Approach ($O(\min(A, B))$ time):**
+    *   **Logic:** Loop through multiples of $\max(A, B)$ (i.e., $\max(A, B), 2\max(A, B), \dots$) until a multiple is found that is divisible by $\min(A, B)$.
+    *   *Why it is sub-optimal:* Triggers TLE for large inputs due to linear search time complexity.
+*   **The Math Relation with GCD ($O(\log(\min(A, B)))$ time):**
+    *   **Logic:** Use the mathematical theorem:
+        $$\text{LCM}(A, B) \times \text{GCD}(A, B) = A \times B \implies \text{LCM}(A, B) = \frac{A \times B}{\text{GCD}(A, B)}$$
+*   **The Integer Overflow Trap & Prevention (Crucial C++ Concept):**
+    *   **The Problem:** Evaluating the mathematical formula directly as `(A * B) / GCD(A, B)` in programming can cause integer overflow during the multiplication `A * B` before division is applied, even if the final LCM fits within the integer range.
+    *   **The Solution:** Change the order of operations to perform division first:
+        $$\text{LCM}(A, B) = \left( \frac{A}{\text{GCD}(A, B)} \right) \times B$$
+        Because $A$ is divisible by $\text{GCD}(A, B)$, the intermediate division $\frac{A}{\text{GCD}(A, B)}$ is guaranteed to be an integer and is smaller than or equal to $A$, completely avoiding intermediate multiplication overflow.
+
+
 
 
 

@@ -7,9 +7,9 @@ This folder contains foundational math and logic building problems from Geeksfor
 ## 📊 Progress Summary
 
 - **Total Problems:** 46
-- **Completed:** 13 / 46
+- **Completed:** 14 / 46
 - **Basic:** 5 / 5
-- **Easy:** 8 / 17
+- **Easy:** 9 / 17
 - **Medium:** 0 / 16
 - **Hard:** 0 / 8
 
@@ -39,8 +39,8 @@ This folder contains foundational math and logic building problems from Geeksfor
 | 06 | Factorial | [Solve](https://www.geeksforgeeks.org/problems/factorial5739/1) | [Code](./Easy/factorial/factorial.cpp) | ✅ Completed |
 | 07 | Pair Cube Count | [Solve](https://www.geeksforgeeks.org/problems/pair-cube-count4132/1) | [Code](./Easy/pair_cube_count/pair_cube_count.cpp) | ✅ Completed |
 | 08 | Gcd of Two Numbers | [Solve](https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1) | [Code](./Easy/gcd_of_two_numbers/gcd_of_two_numbers.cpp) | ✅ Completed |
-| 09 | Lcm of Two Numbers | [Solve](https://www.geeksforgeeks.org/problems/lcm-of-two-numbers/1) | [Code](./Easy/lcm_of_two_numbers/lcm_of_two_numbers.cpp) | 🔄 In Progress |
-| 10 | Perfect Numbers | [Solve](https://www.geeksforgeeks.org/problems/perfect-numbers3207/1) | [Code](./Easy/perfect_numbers/perfect_numbers.cpp) | 🔒 Locked |
+| 09 | Lcm of Two Numbers | [Solve](https://www.geeksforgeeks.org/problems/lcm-of-two-numbers/1) | [Code](./Easy/lcm_of_two_numbers/lcm_of_two_numbers.cpp) | ✅ Completed |
+| 10 | Perfect Numbers | [Solve](https://www.geeksforgeeks.org/problems/perfect-numbers3207/1) | [Code](./Easy/perfect_numbers/perfect_numbers.cpp) | 🔄 In Progress |
 | 11 | Add Two Fractions | [Solve](https://www.geeksforgeeks.org/problems/add-two-fractions/1) | [Code](./Easy/add_two_fractions/add_two_fractions.cpp) | 🔒 Locked |
 | 12 | Day of the Week | [Solve](https://www.geeksforgeeks.org/problems/day-of-the-week1637/1) | [Code](./Easy/day_of_the_week/day_of_the_week.cpp) | 🔒 Locked |
 | 13 | Nth Fibonacci Number | [Solve](https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1) | [Code](./Easy/nth_fibonacci_number/nth_fibonacci_number.cpp) | 🔒 Locked |
