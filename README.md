@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Dev%20Agarwal&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=A2Z%20DSA%20%7C%20Striver's%20Course%20%7C%20C%2B%2B20&descAlignY=55&descSize=18" alt="Header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=50&lines=🚀+Striver's+A2Z+DSA+Course;🧠+Intuition+Over+Memorization;🔥+Brute+→+Better+→+Optimal;🌟+471+Problems.+20+Steps.+1+Goal." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=50&lines=%F0%9F%9A%80+Striver%27s+A2Z+DSA+Course;%F0%9F%A7%A0+Intuition+Over+Memorization;%F0%9F%94%A5+Brute+%E2%86%92+Better+%E2%86%92+Optimal;%F0%9F%8C%9F+471+Problems.+20+Steps.+1+Goal." alt="Typing SVG" />
 
 <br/>
 
